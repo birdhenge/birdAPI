@@ -8,6 +8,7 @@ This is a portfolio project I did as part of my full stack engineer course on [C
 - Build a functioning REST API using C# and .net
 - Allow CRUD operations on entities - GET permissions, POST permissions (PUT and DELETE tbc)
 - Document the API using Swagger. Use best practices for the Design of the endpoints as described in this [Swagger blogpost](https://swagger.io/blog/api-design/api-design-best-practices/) 
+- Secure the endpoints
 
 ### How it was built
 #### Base libraries/techonolgies
