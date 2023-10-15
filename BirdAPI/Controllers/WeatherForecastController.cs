@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BirdAPI.Controllers
 {
+    /// <summary>
+     /// 
+     /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
@@ -18,6 +21,11 @@ namespace BirdAPI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Deletes a specific TodoItem.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
